@@ -23,8 +23,9 @@ body{
 	color: white;
 
 }
-#header .logo{
+#header .logo:hover{
 	padding: 0 50px;
+	transform: rotate(45deg);
 	
 
 }
@@ -39,6 +40,14 @@ body{
 	justify-content: space-around;
 	font-size: 2rem;
 
+}
+#header	.nav ul li a{
+	background-color: black;
+
+}
+#header	.nav ul li a:hover{
+	background-color: red;
+	transform: 	scale(4.2);
 }
 #header .nav .active a{
 	color: #fff;
